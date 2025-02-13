@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mk-Biryani/static/css/main.d45a4536.css",
-    "main.js": "/Mk-Biryani/static/js/main.8d515d44.js",
+    "main.js": "/Mk-Biryani/static/js/main.787e9b7a.js",
     "static/js/488.3170e85d.chunk.js": "/Mk-Biryani/static/js/488.3170e85d.chunk.js",
     "static/media/Sidedish3.jpg": "/Mk-Biryani/static/media/Sidedish3.9cbecdd4fb7078832cd8.jpg",
     "static/media/non-veg-biryani8.jpg": "/Mk-Biryani/static/media/non-veg-biryani8.d9513d126532b19b0cfb.jpg",
@@ -47,11 +47,11 @@
     "static/media/Logo1.jpg": "/Mk-Biryani/static/media/Logo1.a8f7f6998ccaa63b72fc.jpg",
     "index.html": "/Mk-Biryani/index.html",
     "main.d45a4536.css.map": "/Mk-Biryani/static/css/main.d45a4536.css.map",
-    "main.8d515d44.js.map": "/Mk-Biryani/static/js/main.8d515d44.js.map",
+    "main.787e9b7a.js.map": "/Mk-Biryani/static/js/main.787e9b7a.js.map",
     "488.3170e85d.chunk.js.map": "/Mk-Biryani/static/js/488.3170e85d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d45a4536.css",
-    "static/js/main.8d515d44.js"
+    "static/js/main.787e9b7a.js"
   ]
 }
