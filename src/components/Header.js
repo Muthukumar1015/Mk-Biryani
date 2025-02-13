@@ -63,8 +63,11 @@ const Header = () => {
 
        
         <div className="navbar-right">
-          <img src={logo} alt="Restaurant Logo" className="logo" />
-        </div>
+  <a href="/Home.js">
+    <img src={logo} alt="Restaurant Logo" className="logo" />
+  </a>
+</div>
+
       </nav>
 
       {isLoading && (

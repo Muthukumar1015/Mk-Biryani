@@ -32,16 +32,16 @@ const App = () => {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />  {/* Default homepage */}
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/veg-items" element={<VegItems />} />
             <Route path="/non-veg-items" element={<NonVegItems />} />
             <Route path="/side-dish" element={<SideDish />} />
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/checkout" element={<Checkout />} />
- 
-
           </Routes>
+
+
         </main>
         <Footer />
       </Router>
