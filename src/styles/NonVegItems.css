@@ -1,0 +1,98 @@
+.non-veg-items {
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.non-veg-items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.non-veg-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.non-veg-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.non-veg-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.non-veg-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.non-veg-info h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.non-veg-info p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.order-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #2ecc71;
+}
+
+.order-summary {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.checkout-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #2980b9;
+}
